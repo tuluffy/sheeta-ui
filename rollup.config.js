@@ -1,49 +1,33 @@
-import nodeResolve from 'rollup-plugin-node-resolve';
 import babel from 'rollup-plugin-babel';
-import replace from 'rollup-plugin-replace';
-import commonjs from 'rollup-plugin-commonjs';
+import resolve from 'rollup-plugin-node-resolve';
 import postcss from 'rollup-plugin-postcss';
-import { terser } from 'rollup-plugin-terser';
+import commonjs from 'rollup-plugin-commonjs';
+import license from 'rollup-plugin-license';
+import { buildWithCache } from './rollup.config/cache';
+import { buildWithWarn } from './rollup.config/warn';
 
 export default {
     input: 'src/main.js',
     output: {
         file: 'index.js',
         format: 'es',
-        indent: false,
     },
+    cache: buildWithCache,
+    onwarn: buildWithWarn,
     plugins: [
-        nodeResolve(),
-        babel({
-            exclude: 'node_modules/**',
-            extensions: ['.js', '.jsx', '.ts', '.tsx']
-        }),
-        replace({
-            'process.env.NODE_ENV': JSON.stringify('production')
-        }),
-        commonjs(),
         postcss(),
-        // terser({
-        //     compress: {
-        //         pure_getters: true,
-        //         unsafe: true,
-        //         unsafe_comps: true,
-        //         warnings: false
-        //     }
-        // })
-    ]
+        babel({exclude: 'node_modules/**'}),
+        commonjs({
+            include: 'node_modules/**',
+        }),
+        resolve({
+            customResolveOptions: {
+                moduleDirectory: 'node_modules'
+            }
+        }),
+        license({
+            banner: `@description React component with es module \n @email tuluffy@163.com \n @date <%= moment().format('YYYY-MM-DD') %>`
+        })
+    ],
+    external: ['react', 'react-dom']
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
