@@ -1,0 +1,9 @@
+.date-picker {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.date-picker-mask {
+  background-color: #d0d0d0;
+}

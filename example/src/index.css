@@ -5,6 +5,10 @@
   outline: none;
 }
 
+*::-webkit-scrollbar {
+  display: none;/*隐藏滚轮*/
+}
+
 a:link, a:visited, a:hover, a:active a:focus {
   text-decoration:none;
 }

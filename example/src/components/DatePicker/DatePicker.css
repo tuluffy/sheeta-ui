@@ -1,0 +1,112 @@
+/*border*/
+@media screen and (-webkit-min-device-pixel-ratio: 2){
+  .result-bar:before{
+    content: '';
+    pointer-events: none; /* 防止点击触发 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    left: 0;
+    top: 0;
+    border-bottom:1px solid #999;
+    -webkit-transform-origin: 0 0;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+  }
+
+  .date-selected-line:before{
+    content: '';
+    pointer-events: none; /* 防止点击触发 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    left: 0;
+    top: 0;
+    border-top:1px solid #999;
+    border-bottom:1px solid #999;
+    -webkit-transform-origin: 0 0;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+  }
+}
+
+/*container*/
+.date-picker-container {
+  width: 100%;
+  height: 300px;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.result-bar {
+  width: 100%;
+  height: 50px;
+
+  position: relative;
+}
+
+.result-bar .result {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-bar .confirm {
+  position: absolute;
+
+  right: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+/*content*/
+.date-picker-content {
+  flex: 1;
+  display: flex;
+  position: relative;
+}
+
+.date-selected-line {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 50px;
+  pointer-events: none;
+}
+
+.date-block {
+  width: 100%;
+  height: 250px;
+  overflow:auto;/* winphone8和android4+ */
+  -webkit-overflow-scrolling: touch; /* ios5+ */
+}
+
+.date-block div {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date-block div:nth-child(3) {
+  /*color: cyan;*/
+}
+
+.date-year {
+}
+
+.date-month {
+}
+
+.date-day {
+}
