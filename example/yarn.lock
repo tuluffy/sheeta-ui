@@ -1698,7 +1698,7 @@ babel-preset-jest@^24.6.0:
 
 babel-preset-react-app@^9.0.0:
   version "9.0.0"
-  resolved "http://r.cnpmjs.org/babel-preset-react-app/download/babel-preset-react-app-9.0.0.tgz#703108142bc9dd7173bde6a1a0138a762abc76f9"
+  resolved "https://r.cnpmjs.org/babel-preset-react-app/download/babel-preset-react-app-9.0.0.tgz#703108142bc9dd7173bde6a1a0138a762abc76f9"
   dependencies:
     "@babel/core" "7.4.3"
     "@babel/plugin-proposal-class-properties" "7.4.0"
@@ -3018,7 +3018,7 @@ escodegen@^1.11.0, escodegen@^1.9.1:
 
 eslint-config-react-app@^4.0.1:
   version "4.0.1"
-  resolved "http://r.cnpmjs.org/eslint-config-react-app/download/eslint-config-react-app-4.0.1.tgz#23fd0fd7ea89442ef1e733f66a7207674b23c8db"
+  resolved "https://r.cnpmjs.org/eslint-config-react-app/download/eslint-config-react-app-4.0.1.tgz#23fd0fd7ea89442ef1e733f66a7207674b23c8db"
   dependencies:
     confusing-browser-globals "^1.0.7"
 
@@ -3386,8 +3386,8 @@ fb-watchman@^2.0.0:
     bser "^2.0.0"
 
 figgy-pudding@^3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/figgy-pudding/-/figgy-pudding-3.5.1.tgz#862470112901c727a0e495a80744bd5baa1d6790"
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/figgy-pudding/-/figgy-pudding-3.5.2.tgz#b4eee8148abb01dcf1d1ac34367d59e12fa61d6e"
 
 figures@^2.0.0:
   version "2.0.0"
@@ -3523,7 +3523,7 @@ forever-agent@~0.6.1:
 
 fork-ts-checker-webpack-plugin@1.1.1:
   version "1.1.1"
-  resolved "http://r.cnpmjs.org/fork-ts-checker-webpack-plugin/download/fork-ts-checker-webpack-plugin-1.1.1.tgz#caf2a210778fb1e171b6993ca0a40f9b6589e3b7"
+  resolved "https://r.cnpmjs.org/fork-ts-checker-webpack-plugin/download/fork-ts-checker-webpack-plugin-1.1.1.tgz#caf2a210778fb1e171b6993ca0a40f9b6589e3b7"
   dependencies:
     babel-code-frame "^6.22.0"
     chalk "^2.4.1"
@@ -5228,7 +5228,7 @@ methods@~1.1.2:
 
 microevent.ts@~0.1.1:
   version "0.1.1"
-  resolved "http://r.cnpmjs.org/microevent.ts/download/microevent.ts-0.1.1.tgz#70b09b83f43df5172d0205a63025bce0f7357fa0"
+  resolved "https://r.cnpmjs.org/microevent.ts/download/microevent.ts-0.1.1.tgz#70b09b83f43df5172d0205a63025bce0f7357fa0"
 
 micromatch@^3.1.10, micromatch@^3.1.4, micromatch@^3.1.8:
   version "3.1.10"
@@ -6789,7 +6789,7 @@ rc@^1.2.7:
 
 react-app-polyfill@^1.0.1:
   version "1.0.1"
-  resolved "http://r.cnpmjs.org/react-app-polyfill/download/react-app-polyfill-1.0.1.tgz#809a858e44f9564c7f4205e173076f90048274f1"
+  resolved "https://r.cnpmjs.org/react-app-polyfill/download/react-app-polyfill-1.0.1.tgz#809a858e44f9564c7f4205e173076f90048274f1"
   dependencies:
     core-js "3.0.1"
     object-assign "4.1.1"
@@ -6800,7 +6800,7 @@ react-app-polyfill@^1.0.1:
 
 react-dev-utils@^9.0.1:
   version "9.0.1"
-  resolved "http://r.cnpmjs.org/react-dev-utils/download/react-dev-utils-9.0.1.tgz#5c03d85a0b2537d0c46af7165c24a7dfb274bef2"
+  resolved "https://r.cnpmjs.org/react-dev-utils/download/react-dev-utils-9.0.1.tgz#5c03d85a0b2537d0c46af7165c24a7dfb274bef2"
   dependencies:
     "@babel/code-frame" "7.0.0"
     address "1.0.3"
@@ -6839,7 +6839,7 @@ react-dom@^16.8.6:
 
 react-error-overlay@^5.1.6:
   version "5.1.6"
-  resolved "http://r.cnpmjs.org/react-error-overlay/download/react-error-overlay-5.1.6.tgz#0cd73407c5d141f9638ae1e0c63e7b2bf7e9929d"
+  resolved "https://r.cnpmjs.org/react-error-overlay/download/react-error-overlay-5.1.6.tgz#0cd73407c5d141f9638ae1e0c63e7b2bf7e9929d"
 
 react-is@^16.8.1, react-is@^16.8.4:
   version "16.8.6"
@@ -7224,7 +7224,7 @@ saxes@^3.1.9:
 
 scheduler@^0.13.6:
   version "0.13.6"
-  resolved "http://r.cnpmjs.org/scheduler/download/scheduler-0.13.6.tgz#466a4ec332467b31a91b9bf74e5347072e4cd889"
+  resolved "https://r.cnpmjs.org/scheduler/download/scheduler-0.13.6.tgz#466a4ec332467b31a91b9bf74e5347072e4cd889"
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -7559,8 +7559,8 @@ sshpk@^1.7.0:
     tweetnacl "~0.14.0"
 
 ssri@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.1.tgz#2a3c41b28dd45b62b63676ecb74001265ae9edd8"
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.2.tgz#157939134f20464e7301ddba3e90ffa8f7728ac5"
   dependencies:
     figgy-pudding "^3.5.1"
 
@@ -8534,7 +8534,7 @@ worker-farm@^1.5.2:
 
 worker-rpc@^0.1.0:
   version "0.1.1"
-  resolved "http://r.cnpmjs.org/worker-rpc/download/worker-rpc-0.1.1.tgz#cb565bd6d7071a8f16660686051e969ad32f54d5"
+  resolved "https://r.cnpmjs.org/worker-rpc/download/worker-rpc-0.1.1.tgz#cb565bd6d7071a8f16660686051e969ad32f54d5"
   dependencies:
     microevent.ts "~0.1.1"
 
